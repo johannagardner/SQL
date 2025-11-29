@@ -1,5 +1,6 @@
 
-# For this project, I created a table using actual data from the Mercedes-Benz website on select models. I used SQL to compare and contrast model specs and recommend certain models to different customers
+# For this project, I created a table using actual data from the Mercedes-Benz website on select models. I used SQL to 
+compare and contrast model specs and recommend certain models to customers with different needs.
 
 CREATE TABLE Mercedes (id INTEGER PRIMARY KEY, model TEXT, year INTEGER, price INTEGER, mpghwy INTEGER, acceleration_ms INTEGER, power INTEGER, towing INTEGER);
 
