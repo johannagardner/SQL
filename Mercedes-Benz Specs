@@ -107,7 +107,7 @@ where model like '%GLB%')
 select avg(GLBp) from GLBprice;
 
 /*Your customer wants a car that costs over 100k and wants to see hp and 0-60 acceleration of the cars
-that fit the description listed with the most expensive one first*?/
+that fit the description listed with the most expensive one first*/
 select model, power, acceleration_ms, price
 from mercedes 
 where price >100000
@@ -129,7 +129,7 @@ order by mpghwy desc
 limit 5;
 
 /*Show the electric vehicles in the database. Though there is no flag or column directly indicating electric vehicles, you could
-find them by showing the cars that don't have a value for MPG, of course making sure to research the model that comes up and confirm it's electric*/
+find them by showing the cars that don't have a value for MPG, of course making sure to research the model that comes up and verify that it's electric*/
 select *
 from Mercedes 
 where mpghwy is null
