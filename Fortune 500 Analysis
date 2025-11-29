@@ -1,4 +1,4 @@
-# In this project, I analyze Fortune 500 Companies and their revenues, company size, benefits, and more!
+-- In this project, I analyzed Fortune 500 Companies and their revenues, company size, benefits, and more!
 
 #Categorize companies by amount of employees
 SELECT COUNT(*),
