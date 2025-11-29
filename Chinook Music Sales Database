@@ -1,3 +1,5 @@
+-- In this project, I ran queries on sales and employee data for a music company.
+
 -- Show Customers (their full names, customer ID, and country) who are not in the US
 
 select FirstName, LastName, CustomerId, Country
