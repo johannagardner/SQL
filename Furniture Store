@@ -1,5 +1,5 @@
 /*
-Sales from an online furniture store
+In this project, I analyze sales from an online furniture store.
 Collected by: https://www.khanacademy.org/profile/charlesb2000/
 */
 CREATE TABLE sales(
