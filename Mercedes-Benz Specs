@@ -134,3 +134,8 @@ select *
 from Mercedes 
 where mpghwy is null
 
+/*Create ranking of models for the customer who cares about how fast they can go from 0 to 60, accounting for ties*/
+SELECT model, acceleration_ms, RANK() OVER(ORDER BY acceleration_ms ASC) as ranking
+FROM Mercedes;
+
+
