@@ -7,6 +7,8 @@
 and which ones are not so popular. Categorize which artists are "hot", "lukewarm" or "not hot" at the moment 
 based on the average popularity of their songs on the charts right now.*/
 
+
+
 WITH avg_pop_by_artist_cte AS (
     SELECT artist_name, AVG(popularity) as 'avpop'
     FROM SpotifyData
