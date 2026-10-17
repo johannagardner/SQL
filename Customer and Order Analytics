@@ -1,6 +1,6 @@
 --In this project, I query a database with multiple tables in it to quantify statistics about customer and order data.
 
-/*How many orders were placed in January?*/
+/*How many orders were placed in January?*/ 
 
 SELECT COUNT(orderID)
 FROM BIT_DB.JanSales
